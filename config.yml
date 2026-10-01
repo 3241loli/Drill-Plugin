@@ -1,0 +1,6 @@
+# Mining radius around the block you break.
+# 1 = 3x3, 2 = 5x5
+radius: 1
+
+# Sneaking disables area mining (single-block mode)
+sneak-disables: true

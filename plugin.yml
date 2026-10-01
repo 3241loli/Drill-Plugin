@@ -1,0 +1,20 @@
+name: DrillPlugin
+version: ${project.version}
+main: dev.drill.DrillPlugin
+api-version: '1.21'
+description: Netherite drill that mines in an area, with a custom crafting recipe.
+commands:
+  drill:
+    description: Give yourself or another player a Drill
+    usage: /drill give [player]
+    permission: drill.give
+permissions:
+  drill.give:
+    description: Allows /drill give
+    default: op
+  drill.craft:
+    description: Allows crafting the Drill
+    default: true
+  drill.use:
+    description: Allows area mining with the Drill
+    default: true
